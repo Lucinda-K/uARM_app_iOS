@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E982901CC584590079BA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E9828F1CC584590079BA3E /* AppDelegate.swift */; };
+		68E982921CC584590079BA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E982911CC584590079BA3E /* ViewController.swift */; };
+		68E982951CC584590079BA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E982931CC584590079BA3E /* Main.storyboard */; };
+		68E982971CC584590079BA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E982961CC584590079BA3E /* Assets.xcassets */; };
+		68E9829A1CC584590079BA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E982981CC584590079BA3E /* LaunchScreen.storyboard */; };
+		68E982A51CC5845A0079BA3E /* uARM_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E982A41CC5845A0079BA3E /* uARM_ControlTests.swift */; };
+		68E982B01CC5845A0079BA3E /* uARM_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E982AF1CC5845A0079BA3E /* uARM_ControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E982A11CC5845A0079BA3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E982841CC584590079BA3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E9828B1CC584590079BA3E;
+			remoteInfo = "uARM Control";
+		};
+		68E982AC1CC5845A0079BA3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E982841CC584590079BA3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E9828B1CC584590079BA3E;
+			remoteInfo = "uARM Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E9828C1CC584590079BA3E /* uARM Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uARM Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E9828F1CC584590079BA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68E982911CC584590079BA3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68E982941CC584590079BA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E982961CC584590079BA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E982991CC584590079BA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68E9829B1CC584590079BA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E982A01CC5845A0079BA3E /* uARM ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uARM ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E982A41CC5845A0079BA3E /* uARM_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uARM_ControlTests.swift; sourceTree = "<group>"; };
+		68E982A61CC5845A0079BA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E982AB1CC5845A0079BA3E /* uARM ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uARM ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E982AF1CC5845A0079BA3E /* uARM_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uARM_ControlUITests.swift; sourceTree = "<group>"; };
+		68E982B11CC5845A0079BA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E982891CC584590079BA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E9829D1CC5845A0079BA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E982A81CC5845A0079BA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E982831CC584590079BA3E = {
+			isa = PBXGroup;
+			children = (
+				68E9828E1CC584590079BA3E /* uARM Control */,
+				68E982A31CC5845A0079BA3E /* uARM ControlTests */,
+				68E982AE1CC5845A0079BA3E /* uARM ControlUITests */,
+				68E9828D1CC584590079BA3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E9828D1CC584590079BA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E9828C1CC584590079BA3E /* uARM Control.app */,
+				68E982A01CC5845A0079BA3E /* uARM ControlTests.xctest */,
+				68E982AB1CC5845A0079BA3E /* uARM ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E9828E1CC584590079BA3E /* uARM Control */ = {
+			isa = PBXGroup;
+			children = (
+				68E9828F1CC584590079BA3E /* AppDelegate.swift */,
+				68E982911CC584590079BA3E /* ViewController.swift */,
+				68E982931CC584590079BA3E /* Main.storyboard */,
+				68E982961CC584590079BA3E /* Assets.xcassets */,
+				68E982981CC584590079BA3E /* LaunchScreen.storyboard */,
+				68E9829B1CC584590079BA3E /* Info.plist */,
+			);
+			path = "uARM Control";
+			sourceTree = "<group>";
+		};
+		68E982A31CC5845A0079BA3E /* uARM ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E982A41CC5845A0079BA3E /* uARM_ControlTests.swift */,
+				68E982A61CC5845A0079BA3E /* Info.plist */,
+			);
+			path = "uARM ControlTests";
+			sourceTree = "<group>";
+		};
+		68E982AE1CC5845A0079BA3E /* uARM ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68E982AF1CC5845A0079BA3E /* uARM_ControlUITests.swift */,
+				68E982B11CC5845A0079BA3E /* Info.plist */,
+			);
+			path = "uARM ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E9828B1CC584590079BA3E /* uARM Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E982B41CC5845A0079BA3E /* Build configuration list for PBXNativeTarget "uARM Control" */;
+			buildPhases = (
+				68E982881CC584590079BA3E /* Sources */,
+				68E982891CC584590079BA3E /* Frameworks */,
+				68E9828A1CC584590079BA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uARM Control";
+			productName = "uARM Control";
+			productReference = 68E9828C1CC584590079BA3E /* uARM Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E9829F1CC5845A0079BA3E /* uARM ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E982B71CC5845A0079BA3E /* Build configuration list for PBXNativeTarget "uARM ControlTests" */;
+			buildPhases = (
+				68E9829C1CC5845A0079BA3E /* Sources */,
+				68E9829D1CC5845A0079BA3E /* Frameworks */,
+				68E9829E1CC5845A0079BA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E982A21CC5845A0079BA3E /* PBXTargetDependency */,
+			);
+			name = "uARM ControlTests";
+			productName = "uARM ControlTests";
+			productReference = 68E982A01CC5845A0079BA3E /* uARM ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68E982AA1CC5845A0079BA3E /* uARM ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E982BA1CC5845A0079BA3E /* Build configuration list for PBXNativeTarget "uARM ControlUITests" */;
+			buildPhases = (
+				68E982A71CC5845A0079BA3E /* Sources */,
+				68E982A81CC5845A0079BA3E /* Frameworks */,
+				68E982A91CC5845A0079BA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E982AD1CC5845A0079BA3E /* PBXTargetDependency */,
+			);
+			name = "uARM ControlUITests";
+			productName = "uARM ControlUITests";
+			productReference = 68E982AB1CC5845A0079BA3E /* uARM ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E982841CC584590079BA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lucinda Krahl";
+				TargetAttributes = {
+					68E9828B1CC584590079BA3E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					68E9829F1CC5845A0079BA3E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 68E9828B1CC584590079BA3E;
+					};
+					68E982AA1CC5845A0079BA3E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 68E9828B1CC584590079BA3E;
+					};
+				};
+			};
+			buildConfigurationList = 68E982871CC584590079BA3E /* Build configuration list for PBXProject "uARM Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E982831CC584590079BA3E;
+			productRefGroup = 68E9828D1CC584590079BA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E9828B1CC584590079BA3E /* uARM Control */,
+				68E9829F1CC5845A0079BA3E /* uARM ControlTests */,
+				68E982AA1CC5845A0079BA3E /* uARM ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E9828A1CC584590079BA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E9829A1CC584590079BA3E /* LaunchScreen.storyboard in Resources */,
+				68E982971CC584590079BA3E /* Assets.xcassets in Resources */,
+				68E982951CC584590079BA3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E9829E1CC5845A0079BA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E982A91CC5845A0079BA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E982881CC584590079BA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E982921CC584590079BA3E /* ViewController.swift in Sources */,
+				68E982901CC584590079BA3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E9829C1CC5845A0079BA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E982A51CC5845A0079BA3E /* uARM_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E982A71CC5845A0079BA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E982B01CC5845A0079BA3E /* uARM_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E982A21CC5845A0079BA3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E9828B1CC584590079BA3E /* uARM Control */;
+			targetProxy = 68E982A11CC5845A0079BA3E /* PBXContainerItemProxy */;
+		};
+		68E982AD1CC5845A0079BA3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E9828B1CC584590079BA3E /* uARM Control */;
+			targetProxy = 68E982AC1CC5845A0079BA3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E982931CC584590079BA3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E982941CC584590079BA3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E982981CC584590079BA3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E982991CC584590079BA3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E982B21CC5845A0079BA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E982B31CC5845A0079BA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E982B51CC5845A0079BA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "uARM Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sero.uARM-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68E982B61CC5845A0079BA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "uARM Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sero.uARM-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68E982B81CC5845A0079BA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "uARM ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sero.uARM-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uARM Control.app/uARM Control";
+			};
+			name = Debug;
+		};
+		68E982B91CC5845A0079BA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "uARM ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sero.uARM-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uARM Control.app/uARM Control";
+			};
+			name = Release;
+		};
+		68E982BB1CC5845A0079BA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "uARM ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sero.uARM-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "uARM Control";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		68E982BC1CC5845A0079BA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "uARM ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sero.uARM-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "uARM Control";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E982871CC584590079BA3E /* Build configuration list for PBXProject "uARM Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E982B21CC5845A0079BA3E /* Debug */,
+				68E982B31CC5845A0079BA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E982B41CC5845A0079BA3E /* Build configuration list for PBXNativeTarget "uARM Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E982B51CC5845A0079BA3E /* Debug */,
+				68E982B61CC5845A0079BA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E982B71CC5845A0079BA3E /* Build configuration list for PBXNativeTarget "uARM ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E982B81CC5845A0079BA3E /* Debug */,
+				68E982B91CC5845A0079BA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E982BA1CC5845A0079BA3E /* Build configuration list for PBXNativeTarget "uARM ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E982BB1CC5845A0079BA3E /* Debug */,
+				68E982BC1CC5845A0079BA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E982841CC584590079BA3E /* Project object */;
+}
